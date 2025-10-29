@@ -72,7 +72,7 @@ Latest Aristotle mainnet release: v1.0.2. Check [releases page](https://github.c
 Extract the Aristotle node package to your home directory:
 
 ```bash
-tar -xzvf aristotle-v1.0.0.tar.gz -C ~
+tar -xzvf aristotle.tar.gz -C ~
 ```
 
 ### 3. Create Data Directory and Copy Configuration
@@ -80,7 +80,7 @@ tar -xzvf aristotle-v1.0.0.tar.gz -C ~
 Create your data directory and copy the default configuration:
 
 ```bash
-cd aristotle-v1.0.2
+cd ~/aristotle-v1.0.2
 
 cp -r 0g-home {your data path}
 sudo chmod 777 ./bin/geth
